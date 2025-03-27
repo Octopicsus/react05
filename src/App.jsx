@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router";
 import { useState } from "react";
 import "./App.css";
 import Navigation from "./Widgets/Navigation/Navigation";
@@ -24,13 +24,14 @@ function App() {
     <BrowserRouter>
       {<Navigation />}
       <Routes>
-        <Route path="/" element={<Navigate to="/contacts" replace />} />
-
+      <Route
+          path="/"
+          element={<List contacts={contacts} updateContact={updateContact} />}
+        />
         <Route
           path="/contacts"
           element={<List contacts={contacts} updateContact={updateContact} />}
         />
-        
         <Route
           path="/add-contact"
           element={<NewNumber addContact={addContact} />}
