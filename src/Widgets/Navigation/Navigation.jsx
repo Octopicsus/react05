@@ -5,12 +5,14 @@ import "./Navigation.css";
 export default function Navigation() {
   return (
     <div className="nav-wrapper">
+      
       <NavLink 
-        to="/contacts" 
+        to="/" 
         className={({ isActive }) => isActive ? "active-link" : "none-active-link"}
       >
         <button>Phones List</button>
       </NavLink>
+      
       <NavLink 
         to="/add-contact" 
         className={({ isActive }) => isActive ? "active-link" : "none-active-link"}

@@ -24,12 +24,12 @@ function App() {
     <BrowserRouter>
       {<Navigation />}
       <Routes>
-        <Route path="/" element={<Navigate to="/contacts" replace />} />
+        <Route path="/"  element={<List contacts={contacts} updateContact={updateContact} />} />
 
-        <Route
+        {/* <Route
           path="/contacts"
           element={<List contacts={contacts} updateContact={updateContact} />}
-        />
+        /> */}
         
         <Route
           path="/add-contact"
