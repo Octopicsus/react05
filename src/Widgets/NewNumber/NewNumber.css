@@ -1,0 +1,33 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    min-width: 350px;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    min-width: 70px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+input {
+    /* flex: 1; */
+    padding: 5px;
+    height: 26px;
+    width: 200px;
+
+}
+
+.addBtn {
+    align-self: flex-start;
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 10px 25px;
+}

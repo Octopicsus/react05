@@ -1,0 +1,49 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.575);
+  display: flex;
+  backdrop-filter: blur(3px);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(41, 41, 41);
+  padding: 14px;
+  border-radius: 5px;
+  width: 360px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding-bottom: 34px;
+  border-radius: 10px;
+}
+
+.content form{
+  min-width: 350px;
+}
+
+.input-group label{
+  font-size: 14px;
+}
+
+.buttons {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.clean-btn{
+  background-color: rgb(136, 5, 5);
+}
+
+
+

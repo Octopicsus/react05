@@ -1,0 +1,51 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    padding: 10px 24px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 4px;
+    padding-left: 20px;
+    min-height: 18px;
+    display: block;
+    font-weight: 400;
+    position: relative;
+}
+
+.active-link button {
+    background-color: #5e5e5e;
+    color: white;
+    font-weight: bold;
+}
+
+.none-active-link button {
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.233);
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-group input.error {
+    border-color: #e74c3c;
+}

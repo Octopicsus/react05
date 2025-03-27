@@ -1,0 +1,24 @@
+.contact-item {
+  display: flex;
+  width: 450px;
+  gap: 22px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.062);
+  transition: .4s;
+}
+
+.contact-item:hover{
+background-color: rgba(240, 248, 255, 0.253);
+
+}
+
+.contact-name {
+  width: 190px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+h4 {
+  margin: 8px 0;
+}
