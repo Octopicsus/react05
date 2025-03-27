@@ -1,7 +1,6 @@
 ## Pages:
 
-https://octopicsus.github.io/react05/dist/
-
+https://octopicsus.github.io/contacts
 
 Install:
 

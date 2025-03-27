@@ -33,12 +33,12 @@ li {
 }
 
 li:hover .edit-btn {
-    background-image: url('./img/pencil-icon.svg');
+    background-image: url('/img/pencil-icon.svg');
     background-color: #00000057;
 }
 
 li:hover .delete-btn {
-    background-image: url('./img/delete-icon.svg');
+    background-image: url('/img/delete-icon.svg');
     background-color: #00000057;
 }
 
