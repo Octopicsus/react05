@@ -30,6 +30,7 @@ function App() {
           path="/contacts"
           element={<List contacts={contacts} updateContact={updateContact} />}
         />
+        
         <Route
           path="/add-contact"
           element={<NewNumber addContact={addContact} />}
