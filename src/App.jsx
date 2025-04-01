@@ -27,7 +27,7 @@ function App() {
       <Routes>
       <Route
           path="/"
-          element={<Navigate to='/contacts' replace />}
+          element={<Navigate replace to='/contacts' />}
         />
         <Route
           path="/contacts"
